@@ -1,0 +1,33 @@
+# Maven
+target/
+*.log
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+
+# Mac
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Environment / Secrets
+.env
+application-local.yml
+application-dev.yml
+
+# Optional: Ignore generated files
+*.tmp
+*.swp
