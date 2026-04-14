@@ -1,0 +1,54 @@
+src/
+ └─ main/
+    ├─ java/
+    │  └─ com/
+    │     └─ example/
+    │        └─ inventoryapi/
+    │           ├─ InventoryOrderApiApplication.java
+    │           ├─ config/
+    │           │   ├─ SecurityConfig.java
+    │           │   └─ OpenApiConfig.java
+    │           ├─ controller/
+    │           │   ├─ AuthController.java
+    │           │   ├─ CategoryController.java
+    │           │   ├─ AdminProductController.java
+    │           │   ├─ ProductController.java
+    │           │   └─ OrderController.java
+    │           ├─ dto/
+    │           │   ├─ AuthResponse.java
+    │           │   ├─ LoginRequest.java
+    │           │   ├─ RegisterRequest.java
+    │           │   ├─ CategoryRequest.java
+    │           │   ├─ ProductRequest.java
+    │           │   ├─ PlaceOrderRequest.java
+    │           │   └─ PlaceOrderItemRequest.java
+    │           ├─ entity/
+    │           │   ├─ Role.java
+    │           │   ├─ ProductStatus.java
+    │           │   ├─ OrderStatus.java
+    │           │   ├─ User.java
+    │           │   ├─ Category.java
+    │           │   ├─ Product.java
+    │           │   ├─ Order.java
+    │           │   └─ OrderItem.java
+    │           ├─ exception/
+    │           │   ├─ ResourceNotFoundException.java
+    │           │   ├─ InsufficientStockException.java
+    │           │   └─ GlobalExceptionHandler.java
+    │           ├─ repository/
+    │           │   ├─ UserRepository.java
+    │           │   ├─ CategoryRepository.java
+    │           │   ├─ ProductRepository.java
+    │           │   └─ OrderRepository.java
+    │           ├─ security/
+    │           │   ├─ JwtService.java
+    │           │   ├─ JwtAuthenticationFilter.java
+    │           │   └─ CustomUserDetailsService.java
+    │           └─ service/
+    │               ├─ AuthService.java
+    │               ├─ CategoryService.java
+    │               ├─ ProductService.java
+    │               └─ OrderService.java
+    │
+    └─ resources/
+       └─ application.yml
