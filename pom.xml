@@ -9,7 +9,7 @@
     <artifactId>inventory-order-api-mongo</artifactId>
     <version>1.0.0</version>
     <name>Inventory Order API Mongo</name>
-    <description>Inventory & Order Management API using MongoDB + JWT</description>
+    <description>Inventory and Order Management API using MongoDB + JWT</description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
